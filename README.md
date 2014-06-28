@@ -17,8 +17,8 @@ To run, just write a file config.production.yaml in the format:
 
 ```
 config:
-  newNumber: +491234567890
-  oldNumber: +490987654321
+  newNumber: '+491234567890'
+  oldNumber: '+490987654321'
 ```
 
 and run the server with:
