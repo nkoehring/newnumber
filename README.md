@@ -7,7 +7,7 @@ Got a new phone number you want to share with people who know your old one?
 prerequisites
 -------------
 
-You need [ruby](https://www.ruby-lang.org/) and [sinatra](https://www.sinatrarb.com/).
+You need [ruby](https://www.ruby-lang.org/) and [sinatra](https://www.sinatrarb.com/) and [haml](https://www.haml-lang.com/) and [sass](https://www.sass-lang.com/).
 
 
 run
