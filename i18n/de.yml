@@ -1,0 +1,9 @@
+de:
+    introduction: "Ich habe neue neue Handynummer!"
+    howto_url: "Um die neue Nummer zu bekommen, hänge meine alte Nummer einfach an die URL, wie in folgendem Beispiel:"
+    howto_input: "Du kannst die alte Nummer auch einfach in das Textfeld eintragen und Enter drücken:"
+    appendix: "Natürlich kannst du mich aber auch einfach direkt fragen ;)"
+    success: "Achievement unlocked! Deine Belohnung ist:"
+    success_appendix: ""
+    failure: "Nö."
+    failure_appendix: "Vielleicht nur ein Zahlendreher?"

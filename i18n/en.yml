@@ -1,0 +1,9 @@
+en:
+    introduction: "I've got a new mobile phone number!"
+    howto_url: "To get my new number, append the old number to the end of the URL like this:"
+    howto_input: "You can also insert my old number into this input and press enter:"
+    appendix: "And of course you can always just ask me directly ;)"
+    success: "Achievement unlocked! Your reward is:"
+    success_appendix: ""
+    failure: "Nope."
+    failure_appendix: "Maybe just a mispelling?"
