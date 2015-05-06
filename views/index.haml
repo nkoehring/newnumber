@@ -1,25 +1,14 @@
-%h1 Hi there!
+%h1= I18n.t("greeting")
+%p= I18n.t("introduction")
 
-%p
-  I've got a new mobile phone including a whole new number. I had my old number
-  for quite a long time – <b>ten years</b>!
-
-  To make that whole transition process less of an SMS sending nightmare, I
-  quickly hacked together something for you.
-
-%p
-  To get my new number, append my old number to the end of the URL like this:
-
+%p= I18n.t("howto_url")
 %code https://koehr.in:2342/+491234567890
 
-%p
-  You can also insert my old number here and press enter:
-
+%p= I18n.t("howto_input")
 %form( action="/" method="POST" )
   %code
     https://koehr.in:2342/
     %input( type="tel" name="number" )
 
-%p
-  And of course, you can always just ask me ;)
+%p= I18n.t("appendix")
 

@@ -1,6 +1,9 @@
 -if @newNumber
   %p
-    That worked! My new number is:
+    =I18n.t("success")
     %a( href="tel:#{@newNumber}" )=@newNumber
+  %p=I18n.t("success_appendix")
+
 -else
-  %h1 thou shall not see my number
+  %p=I18n.t("failure")
+  %p=I18n.t("failure_appendix")

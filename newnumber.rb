@@ -2,13 +2,23 @@
 # encoding: UTF-8
 
 require 'yaml'
-require "haml"
-require "sass"
+require 'i18n'
+require 'i18n/backend/fallbacks'
+require 'rack-user-locale'
+require "tilt/haml"
+require "tilt/sass"
 require 'sinatra/base'
 
 class MyApp < Sinatra::Base
   configure do
     enable :sessions
+
+    use Rack::Static, :urls => ["/css", "/js"], :root => "public"
+    use Rack::UserLocale, :accepted_locales => [:en, :de] #TODO: make this dynamic
+
+    I18n::Backend::Simple.send(:include, I18n::Backend::Fallbacks)
+    I18n.load_path = Dir[File.join(settings.root, 'i18n', '*.yml')]
+    I18n.backend.load_translations
   end
   configure :development, :test do
     set :oldNumber, '+491234567890'
