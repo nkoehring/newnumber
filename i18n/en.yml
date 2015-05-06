@@ -1,4 +1,5 @@
 en:
+    greeting: "Hi there…"
     introduction: "I've got a new mobile phone number!"
     howto_url: "To get my new number, append the old number to the end of the URL like this:"
     howto_input: "You can also insert my old number into this input and press enter:"
