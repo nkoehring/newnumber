@@ -3,6 +3,7 @@ gem 'sinatra'
 gem 'haml'
 gem 'sass'
 gem 'i18n'
+gem 'rack-user-locale'
 
 group :development do
   gem 'thin'

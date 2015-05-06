@@ -18,6 +18,9 @@ GEM
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
+    rack-user-locale (0.0.5)
+      i18n
+      rack
     sass (3.4.13)
     sinatra (1.4.6)
       rack (~> 1.4)
@@ -39,6 +42,7 @@ DEPENDENCIES
   minitest
   pry
   rack-test
+  rack-user-locale
   sass
   sinatra
   thin
